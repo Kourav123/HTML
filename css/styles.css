@@ -1,0 +1,14 @@
+#demo {
+  font-size: 16px; /* Change the font size to your preference */
+  color: blue;     /* Change the text color to your preference */
+  font-weight: bold; /* Change the font weight to your preference */
+  /* Add any other styles you want to apply */
+}
+.super {
+    font-size: 16px; /* Change the font size to your preference */
+    color: aqua;     /* Change the text color to your preference */
+    font-weight: bold; /* Change the font weight to your preference */
+    
+    /* Add any other styles you want to apply */
+  }
+  

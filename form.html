@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+
+</header>
+<body>
+    As the usage limit exceeded, the lab environment is currently in Stopped state and cannot be started until usage limit is extended. Please contact Support team to get access.
+
+</body>
+
+<footer></footer>
+</html>
+ Your Profile Data:
+<form name="user-form" action="processData.php" METHOD="GET">
+
+    <br> <label for="name1">Your  name:</label>
+    <input type="text" name="name1">
+
+    <br> Your Age: <input type="number" name="a1" size="100" max="5">
+
+    <br> Your Card No: <input type="text" name="cardno">
+    
+    <br><br>
+    Which Vehicle do you own?
+    <select> 
+        <option>Car </option>
+        <option>Bus </option>
+        <option>Bike </option>
+        </select>
+
+    <!-- Checkbox demo-->
+    <br><br> Your Hobbies:
+    <input type="checkbox" name="hobbies" value="crocket"> Cricket
+    <input type="checkbox" name="hobbies" value="Dancing"> Dancing
+    <input type="checkbox" name="hobbies" value="Singing"> Singing
+    <input type="checkbox" name="hobbies" value="Driving"> Driving
+
+    <!-- radiobutton demo-->
+    <br><br> Your Income:
+    <input type="radio" name="income" value="1"> 10-100
+    <input type="radio" name="income" value="2"> 100-1000
+    <input type="radio" name="income" value="3"> 1k-10k
+    <input type="radio" name="income" value="4"> 10-100k
+
+    <!-- Text area demo-->
+    <br><br> Your Accomplishment:
+    <br>
+    <textarea rows="6">
+        I did so and so.
+        I was awareded so and sonm
+    </textarea>
+
+    <br><br> <button onclick="alert('Hi')">Click me!</button>
+
+    <br><br> <input type="submit">
+
+</form>
+
+<button onclick="alert('Bye')">Click me to Bye!</button>
+
+<br> POST METHOD FORM DEMO
+
+<form name="user-form" action="processData2.php" METHOD="POST">
+
+    <br> Your Name: <input type="text" name="name1">
+    <br> Your Age: <input type="text" name="a1">
+
+    <br> Your Card No: <input type="text" name="cardno">
+
+
+    <br><br> <input type="submit">
+
+</form>
+
+<iframe src="tables-demo.html" ></iframe>
+
+</body>
+
+</html>
